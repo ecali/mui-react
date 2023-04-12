@@ -40,7 +40,7 @@ export const DrawerComponent = () => {
                             <Link className={classes.link} to="/">Contact</Link>
                         </ListItemText>
                         <ListItemText onClick={() => setOpenDrawer(false)} className={classes.item}>
-                            <Link className={classes.link} to="/">FAQ</Link>
+                            <Link className={classes.link} to="/faq">FAQ</Link>
                         </ListItemText>
                     </List>
                 </div>

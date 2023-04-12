@@ -49,7 +49,7 @@ export const Navbar = () => {
                                 <Link to={'/'} className={classes.link}>
                                     Contact
                                 </Link>
-                                <Link to={'/'} className={classes.link}>
+                                <Link to={'/faq'} className={classes.link}>
                                     FAQ
                                 </Link>
                             </div>
